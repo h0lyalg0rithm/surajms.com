@@ -1,0 +1,28 @@
+---
+author: h0lyalg0rithm
+comments: true
+date: 2015-05-02 20:25:08+00:00
+layout: post
+link: http://surajms.com/2015/05/fake-alfa/
+slug: fake-alfa
+title: Fake alfa
+wordpress_id: 1451
+categories:
+- Yapp
+---
+
+Alfa awus036h is a really wireless usb adapter.It gained its popularity due it cross platform driver compatibility.Moreover the driver allows the device to run in [promiscuous mode](http://en.wikipedia.org/wiki/Promiscuous_mode).This mode allows the wireless NIC to listen to responses in the wireless spectrum even ones that are not destined to it.
+
+Its basically turns the device into a microphone that listens to all the traffic in the air.
+
+So two weeks ago I decided to order one from [souq](http://uae.souq.com/ae-en/).I received the device within a week.I was really happy to receive the order.The packaging was clean and nothing really stood out.But the minute I opened the box to take a look at the contents, I was shocked.The label behind the alfa card was mispelled.The alfa card mentioned it supported wireless N.This was really weird as the ALFA awus036h doesnt support the wireless n network.Nevertheless I plugged in the device into a linux machine.The device was detected and it tried to connect to one of the networks and asked me for the password.
+
+Even though the device was fake, It seems to work and connect to the network.I then went through the box to find a mini cd which should contain the drivers for the card.I inserted the card into the CD drive and It had a version a of ralink 2080 driver.The original alfa is supposed to have RTL8187L(Realtek).I tried the wireless card for a couple of days and I was facing a lot of issues with the wireless range.
+
+It was not able to detect a lot of the wireless clients in promiscuous mode.This was a huge let down as this was the primary reason for me to buy the device in the first place.
+
+![FullSizeRender-3](http://surajms.com/wp-content/uploads/2015/05/FullSizeRender-31.jpg)
+
+
+
+Notice the 8002.11 WTF

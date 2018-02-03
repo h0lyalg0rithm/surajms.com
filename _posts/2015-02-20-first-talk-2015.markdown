@@ -1,0 +1,20 @@
+---
+author: h0lyalg0rithm
+comments: true
+date: 2015-02-20 19:10:11+00:00
+layout: post
+link: http://surajms.com/2015/02/first-talk-2015/
+slug: first-talk-2015
+title: My First talk for 2015
+wordpress_id: 346
+categories:
+- Talks
+---
+
+Last week I gave a talk at [Devnights](http://surajms.com).The talk was on Emberjs a framework for building ambitious web application. Unfortunately the turnout was not very impressive.I managed to convince a bunch of developers to try emberjs in their next application.
+
+For those who missed my talk, here are the slides.
+
+
+
+
