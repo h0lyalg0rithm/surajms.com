@@ -12,4 +12,7 @@ post_format:
 ---
 
 
+{% raw %}
+<iframe src="//www.youtube.com/embed/KKM71-YeJp8?feature=player_detailpage" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>
+{% endraw %}
 Using CSS as a verbal communication language.
