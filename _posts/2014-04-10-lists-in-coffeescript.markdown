@@ -13,4 +13,7 @@ categories:
 
 List is a standard data structure of most programming languages,but lists are not present in the javascript language.This is how I implemented lists in coffeescript.
 
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/10365543.js">
+</script>
+{% endraw %}

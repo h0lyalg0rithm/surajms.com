@@ -17,4 +17,6 @@ Building a rest client is as pretty simple.All one has to do is require the libr
 
 To setup a basic route one has to do the following
 
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/3e22bdd2028a25adb082.js"></script>
+{% endraw %}

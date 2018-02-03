@@ -13,4 +13,6 @@ categories:
 
 Continuing the data structure implementations in coffeescript.This is my version of stack implemented in javascript.
 
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/10373924.js"></script>
+{% endraw %}

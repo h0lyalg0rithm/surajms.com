@@ -18,6 +18,14 @@ Usually when you want to speed up read speed on your database you usually create
 
 Here is the unscientific benchmark I ran<!-- more -->
 
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/6055b620b3172f71b083.js?file=pg_benchmark.rb"></script>
+{% endraw %}
+
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/6055b620b3172f71b083.js?file=database.sql"></script>
+{% endraw %}
+
 
 
 
@@ -25,7 +33,7 @@ Here are the results are we run the benchmark script.
 
 Result without index
 
-    
+
     ruby bench.rb  0.19s user 0.15s system 12% cpu 2.696 total
 
 
@@ -33,8 +41,5 @@ Result without index
 
 Result with the index
 
-    
+
     ruby bench.rb  0.22s user 0.18s system 11% cpu 3.448 total
-
-
-

@@ -22,10 +22,13 @@ Guard run like a daemon on your machine and runs tests whenever your code change
 To make this even better Guard uses a Guardfile where you can customize the tasks that Guard you use.
 
 Here is a sample Guardfile for a rails project using rspec to test itself.
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/eacf4cb17d32ad1bbfa9.js?file=Guardfile"></script>
+{% endraw %}
 
 The first time you run guard your screen would look rather boring like something from the 90's.
 To add some color to it update your .rspec file to look something like this.
 
-
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/eacf4cb17d32ad1bbfa9.js?file=.rspec"></script>
+{% endraw %}

@@ -16,8 +16,19 @@ Elixir is a ruby like language built on top of the Erlnag VM.It has some really
 
 As we can see having guards and pattern matching makes recursive functions a breeze
 
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/7eaeb6b26b243cc05268.js?file=factorial.ex"></script>
+{% endraw %}
+
+
 Comparing that too ruby,the LOC are more but the code is more readable.
+
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/7eaeb6b26b243cc05268.js?file=factorial.rb"></script>
+{% endraw %}
 
 Comparing it to some ugly javascript.
 
-
+{% raw %}
+<script src="https://gist.github.com/h0lyalg0rithm/7eaeb6b26b243cc05268.js?file=factorial.js"></script>
+{% endraw %}

@@ -17,14 +17,13 @@ In my quest to move away from heroku. I came across Capistrano a popular automat
 
 Here is how I setup Capistrano to deploy static websites and create rollbacks in case the build was buggy.
 
-
+{% gist 84431cc248454fed8754 %}
 
 
 Capistrano deploys the code to /var/www/application_name.It does so by logging in the user into the server and pulling the repo from the git repo specified.On top of this capistrano adds a bunch of commands to make this process simpler.
 
-Running 
-    
+Running
+
     cap -T
 
 shows the lists of commands capistrano supports.
-

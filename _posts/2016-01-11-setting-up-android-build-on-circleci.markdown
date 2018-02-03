@@ -15,5 +15,4 @@ Let me start by stating this CircleCI is a really cool CI and best of all its fr
 
 Here is the circle.yml file I use to setup the android project.
 
-
-
+{% gist 36f332b21a901a3124c2 %}
