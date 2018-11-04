@@ -31,8 +31,7 @@ or [https://github.com/osm0sis/Android-Image-Kitchen/tree/AIK-Linux](https://git
 3. In the terminal, run `unpackimg lineageos/boot.img`.This will extract the boot.img into the ramdisk and split_img folders.
 4. Here comes the important parts.We need to set the total number of CPUs to 4(efficient cores)
 Around line 85(Might be different for newer versions)  
-Edit `init.angler.rc`
-
+Edit `init.angler.rc` in the ramdisk directory    
 ```
  write /dev/cpuset/foreground/cpus 0-3
  write /dev/cpuset/foreground/boost/cpus 0-3
@@ -41,8 +40,10 @@ Edit `init.angler.rc`
  write /dev/cpuset/top-app/cpus 0-3
  write /dev/cpuset/camera-daemon/cpus 0-3
 ```
-5. Then run `repackimg.sh` to build the new boot.img file.
-6. Here comes the tricky bit, since the zip extractor on mac does understand the directory structure we should use an application like [ZipCreator](http://zipcreator.com).Its a java application that will allow you to replace files inside an existing zip file.Now replace the old `boot.img` from the original lineage OS zip file with the one generated in the Android Image Kitchen directory.
+5. Edit the `boot-img.cmdline` in the split_img directory  
+  Add `maxcpus=4` to the end of the first line.
+6. Then run `repackimg.sh` to build the new boot.img file.
+7. Here comes the tricky bit, since the zip extractor on mac does understand the directory structure we should use an application like [ZipCreator](http://zipcreator.com).Its a java application that will allow you to replace files inside an existing zip file.Now replace the old `boot.img` from the original lineage OS zip file with the one generated in the Android Image Kitchen directory.
 7. Save and flash the new image onto the nexus.
 
 I had to perform a couple of extra steps like install a new bootloader however its not mandatory but a good step to take.You can download a pre-patched 4 core fix [TWRP 3.2.1](https://androidfilehost.com/?fid=745849072291698840) or on this [website](https://forum.xda-developers.com/nexus-6p/general/guide-tutorial-nexus-6p-bootloop-death-t3716330).
