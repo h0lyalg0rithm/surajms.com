@@ -28,7 +28,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-analytics
 
 permalink: /:year/:month/:title/
 
@@ -43,7 +42,4 @@ permalink: /:year/:month/:title/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-58192420-1
-    anonymizeIp: false
+google_analytics: UA-58192420-1
