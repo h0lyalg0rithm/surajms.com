@@ -43,8 +43,9 @@ Lastly we setup the haproxy server.
 
 You will also have to change the `server ip` to the nginx ip address.To get the ip address of a container run the following command
 
-
+{% raw %}
     docker inspect -f "{{.NetworkSettings.IPAddress}}" <container id>
+  {% endraw %} 
 
 
 
@@ -52,7 +53,7 @@ You will also have to change the `server ip` to the nginx ip address.To get the 
 Once you get the **ipaddress** replace the `server ip` with it and run the following.This will run the docker image.
 
 
-    docker run -d -p 80:80 -p 8080:8080 -v &lt;dir&gt;:/haproxy-override dockerfile/haproxy
+    docker run -d -p 80:80 -p 8080:8080 -v <dir>:/haproxy-override dockerfile/haproxy
 
 
 
