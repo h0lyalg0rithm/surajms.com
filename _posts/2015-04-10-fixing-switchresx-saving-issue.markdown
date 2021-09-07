@@ -21,7 +21,7 @@ But for some reason every time I create a custom resolution of 2560 X 1080,Switc
 
 Even setting the resolution was really  difficult, after rebooting a couple of times I finally got it working with the following settings.
 
-[![Screen Shot 2015-04-09 at 10.27.03 AM](http://surajms.azurewebsites.net/wp-content/uploads/2015/04/Screen-Shot-2015-04-09-at-10.27.03-AM.png)](http://surajms.azurewebsites.net/wp-content/uploads/2015/04/Screen-Shot-2015-04-09-at-10.27.03-AM.png)
+[![Screen Shot 2015-04-09 at 10.27.03 AM](https://surajms.com/wp-contents/uploads/2015/04/Screen-Shot-2015-04-09-at-10.27.03-AM.png)](https://surajms.com/wp-contents/uploads/2015/04/Screen-Shot-2015-04-09-at-10.27.03-AM.png)
 
 
 
