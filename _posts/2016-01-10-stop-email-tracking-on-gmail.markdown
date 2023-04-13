@@ -15,7 +15,7 @@ Lately there are many services which track open email, like sidekick from hubspo
 
 Gmail had added a new feature couple of years ago, where it would cache images that are sent in bulk/mass email campaign, making the request anonymous (since google is making the request to the server).However many of these service now generate unique urls for these images.
 
-So the only way to stop the tracking is to stop automatic loading of images.Luckily gmail has the option to disable image loading.![gmail](http://surajms.com/wp-content/uploads/2016/01/gmail-1024x683.png)
+So the only way to stop the tracking is to stop automatic loading of images.Luckily gmail has the option to disable image loading.![gmail](http://surajms.com/wp-contents/uploads/2016/01/gmail-1024x683.png)
 
 To turn off image loading
 

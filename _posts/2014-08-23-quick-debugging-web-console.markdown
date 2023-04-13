@@ -12,7 +12,7 @@ categories:
 - Ruby
 ---
 
-![error](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/error-1024x734.png)
+![error](/wp-contents/uploads/2014/08/error-1024x734.png)
 Most of us have seen this dreaded error page when developing on rails.Launching up irb or rails console wastes a lot of time and brain cycles.
 Having said that I came across this neat gem called 'web-console'.This gem is really handy ,it launches rails console right there is the browser along with the current context.
 Installing it is pretty simple Add it to your Gemfile and you are up and running.Make sure you have the version mentioned below or something higher.
@@ -21,4 +21,4 @@ Installing it is pretty simple Add it to your Gemfile and you are up and running
     gem 'web-console', '2.0.0.beta2'
 
 
-![web-console](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/web-console.png)
+![web-console](/wp-contents/uploads/2014/08/web-console.png)

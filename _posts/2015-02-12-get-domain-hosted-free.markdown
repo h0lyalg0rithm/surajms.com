@@ -25,7 +25,7 @@ To setup your free website
 
 
 
-##### ![heroku](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/heroku.png)
+##### ![heroku](/wp-contents/uploads/2015/02/heroku.png)
 
 
 
@@ -35,7 +35,7 @@ To setup your free website
 
 
 
-[![new relic](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/new-relic-902x1024.png)](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/new-relic.png)
+[![new relic](/wp-contents/uploads/2015/02/new-relic-902x1024.png)](/wp-contents/uploads/2015/02/new-relic.png)
 One gotcha about heroku is that it puts your app to sleep if it doesn't receive any traffic for a particular amount of time.New relic offers a service where they check the status of the website after a particular interval of time.This check forces your app on heroku to stay away preventing from sleeping.
 
 
@@ -46,7 +46,7 @@ To activate this service go to application monitoring in the new relic dashboard
 
 
 
-[![newrelic_ping](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/newrelic_ping-1024x869.jpg)](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/newrelic_ping.jpg)
+[![newrelic_ping](/wp-contents/uploads/2015/02/newrelic_ping-1024x869.jpg)](/wp-contents/uploads/2015/02/newrelic_ping.jpg)
 Next setup the Cloudflare account and point your nameserver to cloudflare.To use cloudflare set your nameserver to **mary.ns.cloudflare.com **or** tim.ns.cloudflare.com**
 
 
@@ -62,7 +62,7 @@ You can check for this value in your heroku settings.
 
 
 
-![heroku_settings](http://surajms.azurewebsites.net/wp-content/uploads/2015/02/heroku_settings-1024x794.jpg)
+![heroku_settings](/wp-contents/uploads/2015/02/heroku_settings-1024x794.jpg)
 
 
 

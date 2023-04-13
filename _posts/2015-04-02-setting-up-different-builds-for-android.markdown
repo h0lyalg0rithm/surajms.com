@@ -186,4 +186,4 @@ Using buildtype can improve overall code quality especially if you have multiple
 
 To override a particular file for a particular build all you have to is create a folder in the **src/** directory.
 
-[![tree](http://surajms.azurewebsites.net/wp-content/uploads/2015/04/tree.png)](http://surajms.azurewebsites.net/wp-content/uploads/2015/04/tree.png)
+[![tree](/wp-contents/uploads/2015/04/tree.png)](/wp-contents/uploads/2015/04/tree.png)

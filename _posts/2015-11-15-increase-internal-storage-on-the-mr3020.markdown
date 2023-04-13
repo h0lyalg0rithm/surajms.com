@@ -12,15 +12,15 @@ categories:
 ---
 
 TpLink's mr 3020 is a really small router, small enough to fit in your pocket.To put its size in perspective here is an AC remote and a raspberry pi next to the router.
-![IMG_1132](http://surajms.com/wp-content/uploads/2015/11/IMG_1132-1024x793.jpeg)
+![IMG_1132](http://surajms.com/wp-contents/uploads/2015/11/IMG_1132-1024x793.jpeg)
 
-![IMG_1133](http://surajms.com/wp-content/uploads/2015/11/IMG_11331-1024x757.jpg)
+![IMG_1133](http://surajms.com/wp-contents/uploads/2015/11/IMG_11331-1024x757.jpg)
 <!-- more -->
 
 For the project mytriphoto we had to setup a captive portal but the 4mb of total space on the mr3020 created an issue.We were not able to install additional packages and this created a lot of issues.
 
 After doing a couple of google searches I came across some mods which would increase the space.But this was too much customization for my taste.Morever my soldering skills are comparable to this cat.
-![epic-cat-fail](http://surajms.com/wp-content/uploads/2015/11/epic-cat-fail.gif)
+![epic-cat-fail](http://surajms.com/wp-contents/uploads/2015/11/epic-cat-fail.gif)
 
 But then after a few more searches I came across this post on openwrt to move you root folder onto an external drive.Wow the guide looked just like the linux [post](http://surajms.com/2015/09/moving-home-directory-to-a-seperate-disk-linux/) is wrote a couple of months ago.
 

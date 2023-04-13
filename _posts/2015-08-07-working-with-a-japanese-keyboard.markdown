@@ -39,20 +39,20 @@ To build this automation I had to setup the following.
 
 1)Create two contexts
 
-[![Contexts - ControlPlane](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.41-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.41-AM.png)
+[![Contexts - ControlPlane](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.41-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.41-AM.png)
 
 2)Firstly I set bluetooth as the source
 
-[![Sources - ControlPlane](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.11.28-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.11.28-AM.png)
+[![Sources - ControlPlane](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.11.28-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.11.28-AM.png)
 
 3)I then created two rules for each of the contexts
 
-[![Rules - ControlPlane](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.14-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.14-AM.png)
+[![Rules - ControlPlane](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.14-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.13.14-AM.png)
 
 
 
 
-[![Rules 1 ControlPlane](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.15.02-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.15.02-AM.png)[![Rules 2 ControlPlanse](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.16.12-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.16.12-AM.png)
+[![Rules 1 ControlPlane](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.15.02-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.15.02-AM.png)[![Rules 2 ControlPlanse](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.16.12-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.16.12-AM.png)
 
 
 
@@ -66,12 +66,12 @@ The scripts tell applescript which inturn tells keyboard maestro to run a partic
 
 5) Now we set the actions based on the contexts in controlplane
 
-[![Actions](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.21.40-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.21.40-AM.png)
+[![Actions](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.21.40-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.21.40-AM.png)
 
-[![Actions 2](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.22.13-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.22.13-AM.png)
+[![Actions 2](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.22.13-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.22.13-AM.png)
 
 6) Finally in Keyboard setup two macros : One to change the keyboard to US and the other to International PC.
 
-[![Screen Shot 2015-08-08 at 1.23.50 AM](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.50-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.50-AM.png) [![Screen Shot 2015-08-08 at 1.23.56 AM](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.56-AM.png)](http://surajms.com/wp-content/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.56-AM.png)
+[![Screen Shot 2015-08-08 at 1.23.50 AM](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.50-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.50-AM.png) [![Screen Shot 2015-08-08 at 1.23.56 AM](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.56-AM.png)](http://surajms.com/wp-contents/uploads/2015/08/Screen-Shot-2015-08-08-at-1.23.56-AM.png)
 
 Now you are all setup.Hope this helps

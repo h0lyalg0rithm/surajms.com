@@ -21,7 +21,7 @@ Even though the device was fake, It seems to work and connect to the network.I t
 
 It was not able to detect a lot of the wireless clients in promiscuous mode.This was a huge let down as this was the primary reason for me to buy the device in the first place.
 
-![FullSizeRender-3](http://surajms.com/wp-content/uploads/2015/05/FullSizeRender-31.jpg)
+![FullSizeRender-3](http://surajms.com/wp-contents/uploads/2015/05/FullSizeRender-31.jpg)
 
 
 

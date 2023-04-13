@@ -56,11 +56,11 @@ RX -> TX
 TX -> RX
 GRND -> GRND
 
-[![MR3020](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/mr3020-300x206.jpg)](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/mr3020.jpg)
+[![MR3020](/wp-contents/uploads/2014/08/mr3020.jpg)](/wp-contents/uploads/2014/08/mr3020.jpg)
 
-[![IMG_0778](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/IMG_0778-300x278.jpg)](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/IMG_0778.jpg)
+[![IMG_0778](/wp-contents/uploads/2014/08/IMG_0778.jpg)](/wp-contents/uploads/2014/08/IMG_0778.jpg)
 
-[![IMG_0779](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/IMG_0779-1024x975.jpg)](http://surajms.azurewebsites.net/wp-content/uploads/2014/08/IMG_0779.jpg)
+[![IMG_0779](/wp-contents/uploads/2014/08/IMG_0779-1024x975.jpg)](/wp-contents/uploads/2014/08/IMG_0779.jpg)
 
 Time to flash the firmware.I had to run a tftpd server on my machine and a serial connection to the device.I tried running the device at 56000 bits.It didnt work all gibberish on the screen.After the reading the instructions again.I had to set the bit rate to about 115200.Once that was done.The text was legible.Once the autobooting text came up on the screen I had to type **tpl**(Note sure why but that was some sort of 'open sesame' for the bootloader developers).Then i ran the following commands.
 

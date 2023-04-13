@@ -16,6 +16,6 @@ Recently I bought an old mac from my friend.This mac is pretty old, it has two G
 
 I found this tool online on [gfx.io](https://gfx.io/).This tool lets me easily switch the GPU using a statusbar application.
 
-[![GfxStatus](http://surajms.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.40.13-PM.png)](http://surajms.com/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.40.13-PM.png)
+[![GfxStatus](http://surajms.com/wp-contents/uploads/2015/12/Screen-Shot-2015-12-02-at-11.40.13-PM.png)](http://surajms.com/wp-contents/uploads/2015/12/Screen-Shot-2015-12-02-at-11.40.13-PM.png)
 
 
