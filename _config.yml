@@ -28,6 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-paginate
 
 permalink: /:year/:month/:title/
 
@@ -43,3 +44,5 @@ permalink: /:year/:month/:title/
 #   - vendor/gems/
 #   - vendor/ruby/
 google_analytics: UA-58192420-1
+paginate: 25
+paginate_path:      /page/:num/
