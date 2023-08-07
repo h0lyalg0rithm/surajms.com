@@ -53,3 +53,15 @@ The delete callback was a bit tricky since the proxmox-go-api didnt have a delet
 Since proxmox doesnt let you update a given iso, I didn't have to implement the update callback.
 
 Here is the [link](https://github.com/Telmate/terraform-provider-proxmox/compare/master...h0lyalg0rithm:terraform-provider-proxmox:add_resource_storage_iso) to the final PR for this feature
+
+Update(07-08-2023): One of the things I forgot to mention was setting up the development environment for the provider.One of things that took a lof of my time was the setup itself.
+I created a `.terraformrc` file in my $HOME directory
+```
+provider_installation {
+  dev_overrides {
+    "telmate/proxmox" = "<path to terraform-provider-proxmox>"
+  }
+}
+```
+I created a `main.tf` to test out the feature.Running terraform init would result in error as it cannot find the provider.
+Just run `terraform plan` to execute the action.
