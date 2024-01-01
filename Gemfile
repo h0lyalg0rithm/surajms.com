@@ -23,6 +23,7 @@ gem "minima", github: "jekyll/minima", ref: "10124515953527c8990a2de99ae4ddb2a81
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem 'jekyll-paginate', "~> 1.1"
+  gem 'jemoji'
 end
 
 # gem "jekyll-sass-converter", "3.0.0"
