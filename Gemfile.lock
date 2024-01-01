@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/jekyll/jekyll-gist.git
+  revision: 971e9e65a3ba8737a9eb0dca9199b1d4ed1eb57b
+  ref: master
+  specs:
+    jekyll-gist (1.5.0)
+      jekyll (>= 3.7, < 5.0)
+      octokit (~> 4.2)
+
+GIT
   remote: https://github.com/jekyll/minima.git
   revision: 10124515953527c8990a2de99ae4ddb2a81ffee3
   ref: 10124515953527c8990a2de99ae4ddb2a81ffee3
@@ -52,8 +61,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-gist (1.5.0)
-      octokit (~> 4.2)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -103,7 +110,7 @@ DEPENDENCIES
   jekyll-analytics
   jekyll-compose
   jekyll-feed (~> 0.17)
-  jekyll-gist
+  jekyll-gist!
   jekyll-paginate (~> 1.1)
   minima!
   tzinfo-data
