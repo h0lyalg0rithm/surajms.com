@@ -58,3 +58,8 @@ permalink: /:year/:month/:title/
 google_analytics: UA-58192420-1
 paginate: 25
 paginate_path:      /page/:num/
+
+kramdown:
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: false

@@ -9,7 +9,7 @@ This runtime allocator makes use of a feature of the dynamic linker which tries 
 Using this feature you can track all of the malloc/free calls used by the application and decide where the memory needs to be allocated.
 Here is how you can hijack all the malloc calls made by the application.
 
-```C
+~~~C
 // _GNU_SOURCE enables the RLD_NEXT handle used in the dlsym
 #DEFINE _GNU_SOURCE
 
@@ -31,7 +31,7 @@ void* __attribute__((constructor)) lib_init() {
 void* malloc(size_t size) {
     return real_malloc(size);
 }
-```
+~~~
 We then need to build the code as a shared library using `gcc -shared -fPIC -o libmalloc.so main.c`
 
 Then to use the library all you need to do is `LD_PRELOAD=libmalloc.so ./app` where app is the application you want to hijack

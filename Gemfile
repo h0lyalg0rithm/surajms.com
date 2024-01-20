@@ -34,3 +34,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jekyll-gist', github: 'jekyll/jekyll-gist', ref: 'master'
 gem 'jekyll-analytics'
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+gem 'kramdown-syntax-coderay'
